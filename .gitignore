@@ -1,0 +1,16 @@
+node_modules/
+.creds*.json
+.env
+
+*.js
+
+exploration/
+
+bruno-collection/
+
+.DS_Store
+
+requests/
+
+token.txt
+cli-comands-open-webui.txt

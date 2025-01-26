@@ -1,0 +1,23 @@
+{
+  "name": "ai-core-proxy",
+  "version": "1.0.0",
+  "main": "dist/proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && tsc",
+    "dev": "ts-node src/proxy.ts",
+    "start": "node dist/proxy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/openai": "^2.0.0-beta.1",
+    "@types/node": "^22.5.4",
+    "axios": "^1.7.7",
+    "openai": "^4.58.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
